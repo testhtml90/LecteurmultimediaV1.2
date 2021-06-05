@@ -1,0 +1,17 @@
+div#vidéo {
+	margin : 10px 0 ;
+	text-align : center ;
+	padding : auto ;
+}
+
+div#audio {
+	margin : 10px 0 ;
+	text-align : center ;
+	padding : auto ;
+}
+
+body {
+    background-color: rgb(14, 31, 87);
+    /* background-size: cover; */
+    
+}
