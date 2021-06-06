@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+/* body {
+    background-color: rgb(14, 31, 87);
+}  */
+
+/* menu de vavigation */
+
+nav.nav2 li a {
+    color: white;
+    text-decoration: none;
+
+	font-size: 20px;
+}
+
+nav.nav2 li{
+    color: white;
+    text-decoration: none;
+	list-style: none;
+	text-align: center;
+    margin-top: 27vh;
+    transform: translateY(-50%);
+    
+    
+}
+
+body {
+    /* background-color: rgb(14, 31, 87);  */
+    background-color: black; 
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.item1 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+
+}
+
+.item2 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+}
+
+.item3 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.item4 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;    
+    text-align: center;
+}
+
+.item5 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.item6 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+
+    text-align: center;
+}
+
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}

@@ -1,0 +1,65 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8 ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noKodi</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <section class="page1">
+
+        <nav class="nav1">
+            <li><a href="">Vidéo</a></li>
+            <li><a href="">Audio</a></li>
+        </nav>
+
+    </section>
+
+           
+</body>
+
+</html>
+
+
+CSS:
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+body {
+    background-color: rgb(14, 31, 87);
+} 
+
+/* menu de vavigation */
+
+nav.nav1 li a {
+    color: white;
+    text-decoration: none;
+
+	font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+nav.nav1 li{
+    color: white;
+    text-decoration: none;
+	list-style: none;
+	text-align: center;
+
+/* ça marche */
+
+    margin-top: 27vh;
+    transform: translateY(-50%); 
+
+
+  
+}
