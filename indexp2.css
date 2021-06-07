@@ -2,11 +2,26 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
 
 
-/* body {
-    background-color: rgb(14, 31, 87);
-}  */
+/* haut de page (bouton menu) */
 
-/* menu de vavigation */
+nav.nav1 li a {
+    color: white;
+    text-decoration: none;
+
+	font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+nav.nav1 li{
+    color: white;
+    text-decoration: none;
+	list-style: none;
+	text-align: center;
+
+}
+
+/* Liste de programmes */
 
 nav.nav2 li a {
     color: white;
@@ -15,23 +30,30 @@ nav.nav2 li a {
 	font-size: 20px;
 }
 
-nav.nav2 li{
-    color: white;
-    text-decoration: none;
-	list-style: none;
-	text-align: center;
-    margin-top: 27vh;
-    transform: translateY(-50%);
-    
-    
-}
-
 body {
-    /* background-color: rgb(14, 31, 87);  */
     background-color: black; 
 }
 
-.container {
+.container1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    text-decoration: none;
+    list-style: none;
+	text-align: center;
+
+}
+
+.container2 {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -77,10 +99,4 @@ body {
     color: white;
 
     text-align: center;
-}
-
-.plant-name {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 3px;
 }
