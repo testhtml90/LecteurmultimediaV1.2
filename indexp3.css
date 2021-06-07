@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+/* haut de page (bouton menu) */
+
+nav.nav1 li a {
+    color: white;
+    text-decoration: none;
+
+	font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+nav.nav1 li{
+    color: white;
+    text-decoration: none;
+	list-style: none;
+	text-align: center;
+
+}
+
+/* Liste de programmes */
+
+nav.nav2 li a {
+    color: white;
+    text-decoration: none;
+
+	font-size: 20px;
+}
+
+body {
+    background-color: black; 
+}
+
+.menu {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    text-decoration: none;
+    list-style: none;
+	text-align: center;
+
+}
+
+.liste-programme1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.deezer1 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Abril FatFace';
+}
+
+.deezer2 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Abril FatFace';
+}
+
+.deezer3 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Abril FatFace';
+}
+
+.deezer4 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Abril FatFace';
+}
+
+/* liste programme 2 */
+
+.liste-programme2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    margin-right: 25px;
+    margin-left: 65px;
+}
+
+.fip1 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.fip2 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.fip3 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.fip4 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}

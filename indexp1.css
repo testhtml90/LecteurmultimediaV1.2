@@ -3,7 +3,7 @@
 
 
 body {
-    /* background-color: rgb(14, 31, 87); */
+    background-color: rgb(14, 31, 87);
     background-color: black;
 } 
 
@@ -25,6 +25,7 @@ nav.nav1 li{
 	text-align: center;
 
 /* ça marche */
+/* centralisation verticale */
 
     margin-top: 27vh;
     transform: translateY(-50%); 

@@ -2,16 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
 
 
-/* haut de page (bouton menu) */
-
-nav.nav1 li a {
-    color: white;
-    text-decoration: none;
-
-	font-size: 80px;
-    font-family: 'Abril FatFace', cursive;
-    font-weight: 100;
-}
+/* haut de page (bouton Menu) */
 
 nav.nav1 li{
     color: white;
@@ -21,79 +12,62 @@ nav.nav1 li{
 
 }
 
-/* Liste de programmes */
-
-nav.nav2 li a {
-    color: white;
-    text-decoration: none;
-
-	font-size: 20px;
-}
-
 body {
     background-color: black; 
 }
 
-.container1 {
+
+/* Liste de programmes */
+
+.liste-programme1 {
     display: flex;
     justify-content:space-between;
     align-items: center;
-}
-
-.menu {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    font-size: 80px;
-    font-family: 'Abril FatFace';
-    font-weight: 100;
     text-decoration: none;
     list-style: none;
-	text-align: center;
-
+    margin-left: 85px;
 }
 
-.container2 {
+.youtube {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.arte1 {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+
     display: flex;
-    justify-content:space-between;
     align-items: center;
+    flex-direction: center;
 }
 
-.item1 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-
-}
-
-.item2 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-}
-
-.item3 {
+.arte2 {
     flex-basis: auto;
     height: 100px;
     color: white;
     text-align: center;
 }
 
-.item4 {
+.arte3 {
     flex-basis: auto;
     height: 100px;
     color: white;    
     text-align: center;
 }
 
-.item5 {
+.arte4 {
     flex-basis: auto;
     height: 100px;
     color: white;
     text-align: center;
 }
 
-.item6 {
+.arte5 {
     flex-basis: auto;
     height: 100px;
     color: white;
