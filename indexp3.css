@@ -47,6 +47,13 @@ body {
 
 }
 
+.titre-fip {
+    color: white;
+    font-size: 50px;
+    font-family: 'Monserat';
+    margin-left: 100px;
+}
+
 .liste-programme1 {
     display: flex;
     justify-content:space-between;
