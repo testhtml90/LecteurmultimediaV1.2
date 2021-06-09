@@ -23,12 +23,15 @@ body {
 
 .liste-programme1 {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     text-decoration: none;
     list-style: none;
     margin-left: 15px;
     margin-right: 15px;
+
+	font-size: 20px;
+    font-weight: 100;
 }
 
 .arte1 {
@@ -82,6 +85,9 @@ body {
     list-style: none;
     margin-left: 150px;
     margin-right: 15px;
+
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .francetv {
@@ -119,17 +125,62 @@ body {
     text-align: center;
 }
 
-
-
-
-/* liste de programme 3 */
+/* liste de programmes 3 */
 
 .liste-programme3 {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 150px;
+    margin-right: 15px;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.franceinfo {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.culturebox {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.franceslash {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.okoo {
+    flex-basis: auto;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* liste de programme 4 */
+
+.liste-programme4 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     margin-left: 15px;
     margin-right: 15px;
+
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .ytb-accueil {
@@ -189,3 +240,7 @@ footer p.copyright {
     color: white;
     list-style: none;
 }
+/* 
+
+https://www.france.tv/enfants/
+ */

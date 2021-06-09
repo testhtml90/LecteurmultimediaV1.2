@@ -33,3 +33,33 @@ nav.nav1 li{
 
   
 }
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  100px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+footer a.netlify {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+footer a.github {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+footer p.copyright {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}

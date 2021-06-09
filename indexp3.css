@@ -2,56 +2,32 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
 
 
+
 /* haut de page (bouton menu) */
-
-nav.nav1 li a {
-    color: white;
-    text-decoration: none;
-
-	font-size: 80px;
-    font-family: 'Abril FatFace', cursive;
-    font-weight: 100;
-}
 
 nav.nav1 li{
     color: white;
     text-decoration: none;
 	list-style: none;
-	text-align: center;
-
+    margin-left: 39%;
+    margin-top: 100px;
 }
 
-/* Liste de programmes */
-
-nav.nav2 li a {
-    color: white;
-    text-decoration: none;
-
-	font-size: 20px;
-}
+/* Body */
 
 body {
-    background-color: black; 
+    background-color: black;
 }
 
-.menu {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    font-size: 80px;
-    font-family: 'Abril FatFace';
-    font-weight: 100;
-    text-decoration: none;
-    list-style: none;
-	text-align: center;
 
-}
 
-.titre-fip {
+/* liste de programmes 1 */
+
+.titre-deezer {
     color: white;
     font-size: 50px;
     font-family: 'Monserat';
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .liste-programme1 {
@@ -62,7 +38,7 @@ body {
     margin-left: 25px;
 }
 
-.deezer1 {
+.deezer {
     flex-basis: auto;
     height: 100px;
     color: white;
@@ -73,40 +49,18 @@ body {
     font-family: 'Abril FatFace';
 }
 
-.deezer2 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Abril FatFace';
-}
 
-.deezer3 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Abril FatFace';
-}
-
-.deezer4 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Abril FatFace';
-}
 
 /* liste programme 2 */
+
+.titre-fip {
+    color: white;
+    font-size: 50px;
+    font-family: 'Monserat';
+    margin-left: 100px;
+    margin: 50px;
+    margin-left: 10%;
+}
 
 .liste-programme2 {
     display: flex;
@@ -117,30 +71,39 @@ body {
     margin-left: 65px;
 }
 
-.fip1 {
+.fip {
     flex-basis: auto;
     height: 100px;
     color: white;
     text-align: center;
 }
 
-.fip2 {
-    flex-basis: auto;
-    height: 100px;
-    color: white;
-    text-align: center;
+
+
+/* ################################# Pied de Page #################################### --> */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
 }
 
-.fip3 {
-    flex-basis: auto;
-    height: 100px;
+footer a.netlify {
+    text-decoration: none;
     color: white;
-    text-align: center;
+    list-style: none;
 }
 
-.fip4 {
-    flex-basis: auto;
-    height: 100px;
+footer a.github {
+    text-decoration: none;
     color: white;
-    text-align: center;
+    list-style: none;
+}
+
+footer p.copyright {
+    text-decoration: none;
+    color: white;
+    list-style: none;
 }
