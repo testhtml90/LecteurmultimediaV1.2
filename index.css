@@ -1,0 +1,20 @@
+body{
+    background-image: url("/site/maquette (adobe XD)/Page 1 (Accueil)/Fond (Dégradé Rouge-bleu)/fond@2x.png");
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo li {
+    /* margin-left: 50%; */
+    text-align: center;
+    margin-top: 50vh;
+    transform: translateY(-50%); 
+}
+
+.Bouton li {
+    /* margin-left: 50%; */
+    text-align: center;
+    margin-top: 4vh;
+    transform: translateY(-50%); 
+    text-decoration: none;
+}
