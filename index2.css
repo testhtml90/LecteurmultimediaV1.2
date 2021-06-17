@@ -101,7 +101,7 @@ html {
 .img-deezer {
     width: 35%;
     float: left;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 
@@ -111,7 +111,7 @@ html {
     font-size: 25px;
     text-align: left;
     margin-right: 20;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .bouton-deezer {
