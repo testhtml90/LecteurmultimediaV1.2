@@ -53,7 +53,7 @@ html {
 } */
 
 .gauche {
-    height: 3500px;
+    height: 2000px; /* 3500px (valeur final)*/
     /* height: 100%; */
     width: 50%;
     float: left;
@@ -71,7 +71,7 @@ html {
 
 
 .droite {
-    height: 3500px;
+    height: 2000px;
     width: 49%;
     float: left;
     /* background-color: blue; */
@@ -90,7 +90,7 @@ html {
     align-items: center;
 } */
 
-/* Fip  */
+/* Deezer  */
 
 .deezer {
     text-align: left;
@@ -167,6 +167,93 @@ html {
 }
 
 .bouton-fip {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+######################## VIDEO ########################
+
+/* youtube  */
+
+.youtube {
+    /* text-align: left; */
+    margin-right: 10vh;
+}
+
+.titre-youtube {
+    text-align: left;
+    margin-left: 30%;
+    font-size: 40px;
+    font-weight: 900;
+    /* background-color: blueviolet; */
+
+}
+
+.div-img-youtube {
+    width: 39%;
+    float: left;
+    text-align: center;
+    height: 250px;
+   
+    /* background-color: blueviolet; */
+
+}
+.div-img-youtube li {
+    margin-top: -20px;
+}
+
+
+.text-youtube {
+    width: 59%;
+    float: left;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+
+    margin-right: 1.9vh;
+}
+
+.bouton-youtube {
+    text-align: right;
+    align-items: right;
+    float: right;
+    margin-right: 10vh;
+}
+
+/* Arte  */
+
+.arte {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-arte {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-arte {
+    width: 40%;
+    float: left;
+    /* background-color: blueviolet; */
+    text-align: center;
+    height: 200px;
+}
+
+
+.text-arte {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-arte {
     text-align: right;
     align-items: right;
     float: right;
