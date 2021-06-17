@@ -41,7 +41,7 @@ nav.nav2 li{
 }
 
 
-/* construction des deus parties Gauche Droite */
+/* construction des deux parties Gauche Droite */
 
 html {
     height: 100%;
@@ -61,8 +61,8 @@ html {
 
 }
 .gauche a {
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 }
 .gauche {
     text-align: center;
@@ -85,44 +85,93 @@ html {
 
 /* bandeau de navigation n°3(millieu/bas) ligne + audio/vidéo logo */
 
-.audio {
+/* .audio {
     text-align: center;
     align-items: center;
-}
+} */
 
-/* Deezer  */
+/* Fip  */
+
+.deezer {
+    text-align: left;
+    margin-right: 10vh;
+}
 
 .titre-deezer {
     text-align: left;
-    margin-left: 30%;
-    font-size: 30px;
+    margin-left: 35%;
+    font-size: 40px;
     font-weight: 900;
 }
 
-.img-deezer {
-    width: 30%;
+.div-img-deezer {
+    width: 40%;
     float: left;
+    text-align: center;
+    height: 250px;
+    
     /* background-color: blueviolet; */
+
+}
+.div-img-deezer li {
+    margin-top: 45px;
+    /* background-color: blueviolet; */
+
 }
 
-
 .text-deezer {
-    width: 65%;
+    width: 60%;
     float: center;
-    font-size: 25px;
+    font-size: 35px;
     text-align: left;
     /* background-color: red; */
-    margin-right: 10vh;
-
-
 }
 
 .bouton-deezer {
     text-align: right;
     align-items: right;
     float: right;
+}
+
+
+
+
+/* Fip  */
+
+.fip {
+    text-align: left;
     margin-right: 10vh;
 }
+
+.titre-fip {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-fip {
+    width: 40%;
+    float: left;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+
+.text-fip {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-fip {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
 
 
 
