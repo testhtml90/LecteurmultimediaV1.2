@@ -843,9 +843,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  100px;
     font-weight: 600;
-    margin-top: 5%;
+/
     font-family: 'Jokey one';
 }
 
