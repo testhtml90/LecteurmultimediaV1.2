@@ -349,7 +349,9 @@ html {
 
 .arte-concert {
     flex-basis: auto;
-    margin-left: 20vh;
+    margin-left: 25vh;
+    /* background-color: chocolate; */
+    margin-right: -2.5vh;
 }
 
 
