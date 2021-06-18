@@ -23,6 +23,7 @@ nav.nav1 li{
 }
 
 
+
 /* Bandeau de navigation n°2 (haut/millieu) bouton1 ("revenir à l'accueil")*/
 
 .top-page2 {
@@ -41,19 +42,15 @@ nav.nav2 li{
 }
 
 
+
 /* construction des deux parties Gauche Droite */
 
 html {
     height: 100%;
 }
 
-/* * {
-    margin: 0; 
-    padding: 0; 
-} */
-
 .gauche {
-    height: 2000px; /* 3500px (valeur final)*/
+    height: 4000px; /* 3500px (valeur final)*/
     /* height: 100%; */
     width: 50%;
     float: left;
@@ -71,7 +68,7 @@ html {
 
 
 .droite {
-    height: 2000px;
+    height: 4000px;
     width: 49%;
     float: left;
     /* background-color: blue; */
@@ -83,12 +80,7 @@ html {
     margin-bottom: 2vh;
 }
 
-/* bandeau de navigation n°3(millieu/bas) ligne + audio/vidéo logo */
 
-/* .audio {
-    text-align: center;
-    align-items: center;
-} */
 
 /* Deezer  */
 
@@ -134,8 +126,6 @@ html {
 }
 
 
-
-
 /* Fip  */
 
 .fip {
@@ -173,6 +163,7 @@ html {
 }
 
 
+
 ######################## VIDEO ########################
 
 /* youtube  */
@@ -204,7 +195,6 @@ html {
     margin-top: -20px;
 }
 
-
 .text-youtube {
     width: 59%;
     float: left;
@@ -221,6 +211,7 @@ html {
     float: right;
     margin-right: 10vh;
 }
+
 
 /* Arte  */
 
@@ -260,7 +251,275 @@ html {
 }
 
 
+/* PAGE 2 */
+.arte-prog {
+    text-align: center;
+}
+/* Ligne 1 */
+.container-page2-arte-prog1 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte docu */
+.titre-arte-docu-reportage {
+    font-size: 30px;
+    font-weight: 900;
+}
 
+.arte-docu-reportage {
+    flex-basis: auto;
+}
+
+/* arte Cinéma */
+.titre-cinema {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-cinema {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+
+/* Ligne 2 */
+.container-page2-arte-prog2 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte séries et fiction */
+.titre-arte-series-fictions {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-docu-series-fictions {
+    flex-basis: auto;
+    margin-right: 10vh;
+}
+
+/* arte info et société */
+.titre-info-societe {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-info-societe {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* Ligne 3 */
+.container-page2-arte-prog3 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte cuture et pop */
+.titre-arte-culture-pop {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-culture-pop {
+    flex-basis: auto;
+}
+
+/* arte concert */
+.titre-arte-concert {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-concert {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* Ligne 4 */
+.container-page2-arte-prog4 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte sciences */
+.titre-arte-sciences {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-sciences {
+    flex-basis: auto;
+
+}
+
+/* arte Voyages et découvertes */
+.titre-arte-voyages-decouvertes {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-voyages-decouvertes {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* Ligne 5 */
+.container-page2-arte-prog5 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte Histoire */
+.titre-arte-histoire {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-histoire {
+    flex-basis: auto;
+    margin-right: 10vh;
+}
+
+/* arte les émissions */
+.titre-arte-les-emissions {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-voyages-les-emissions {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* #################################################Page2################################################## */
+
+.container-page2-ligne1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip rock */
+.titre-fip-rock {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-rock {
+    flex-basis: auto;
+}
+
+/* fip jazz */
+.titre-fip-jazz {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-jazz {
+    flex-basis: auto;
+}
+
+/* fip groove */
+.titre-fip-groove {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-groove {
+    flex-basis: auto;
+}
+
+.container-page2-ligne2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip pop */
+.titre-fip-pop {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-pop {
+    flex-basis: auto;
+}
+
+/* fip electro */
+.titre-fip-electro {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-electro {
+    flex-basis: auto;
+}
+
+/* fip monde */
+.titre-fip-monde {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-monde {
+    flex-basis: auto;
+}
+
+.container-page2-ligne3 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip Reggae */
+.titre-fip-reggae {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-reggae {
+    flex-basis: auto;
+}
+
+/* fip Tout nouveau */
+.titre-fip-toutnouveau {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-electro {
+    flex-basis: auto;
+}
 
 /* pied de page 1 bouton (haut de page)*/
 
