@@ -50,7 +50,7 @@ html {
 }
 
 .gauche {
-    height: 4000px; /* 3500px (valeur final)*/
+    height: 5500px; /* 3500px (valeur final)*/
     /* height: 100%; */
     width: 50%;
     float: left;
@@ -68,7 +68,7 @@ html {
 
 
 .droite {
-    height: 4000px;
+    height: 5500px;
     width: 49%;
     float: left;
     /* background-color: blue; */
@@ -228,7 +228,7 @@ html {
 }
 
 .img-arte {
-    width: 40%;
+    width: 43%;
     float: left;
     /* background-color: blueviolet; */
     text-align: center;
@@ -337,6 +337,8 @@ html {
 
 .arte-culture-pop {
     flex-basis: auto;
+    margin-right: -15vh;
+
 }
 
 /* arte concert */
@@ -347,8 +349,9 @@ html {
 
 .arte-concert {
     flex-basis: auto;
-    margin-left: 10vh;
+    margin-left: 20vh;
 }
+
 
 /* Ligne 4 */
 .container-page2-arte-prog4 {
@@ -362,7 +365,7 @@ html {
 }
 /* arte sciences */
 .titre-arte-sciences {
-    font-size: 30px;
+    font-size: 30px; 
     font-weight: 900;
 }
 
@@ -520,6 +523,282 @@ html {
 .fip-electro {
     flex-basis: auto;
 }
+
+/* soundcloud  */
+
+.soundcloud {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-soundcloud {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-soundcloud {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-soundcloud {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-soundcloud {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* Youzeek  */
+
+.youzeek {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-youzeek {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-youzeek {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-youzeek {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-youzeek {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* shazam  */
+
+.shazam {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-shazam {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-shazam {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-shazam {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-shazam {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* Bandcamps  */
+
+.bandcamps {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-bandcamps {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-bandcamps {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    margin-top: -60px;
+
+    /* background-color: blueviolet; */
+
+}
+
+.text-bandcamps {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-bandcamps {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+
+
+/* France TV  */
+
+.francetv {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-francetv {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-francetv {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-francetv {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-francetv {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+
+
+.container-pagebas-ligne1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* France 1 */
+.titre-france1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france1 {
+    flex-basis: auto;
+}
+
+/* France 2 */
+.titre-france2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france2 {
+    flex-basis: auto;
+}
+
+/* France 3 */
+.titre-france3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-france3 {
+    flex-basis: auto;
+}
+
+.container-pagebas-ligne2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* France 4 */
+.titre-france4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france4 {
+    flex-basis: auto;
+}
+
+/* France 5 */
+.titre-france5 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-frnace5 {
+    flex-basis: auto;
+}
+
+/* France O */
+.titre-franceo {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-franceo {
+    flex-basis: auto;
+}
+
+
 
 /* pied de page 1 bouton (haut de page)*/
 
