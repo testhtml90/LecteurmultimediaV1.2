@@ -844,8 +844,11 @@ html {
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
-/
+
     font-family: 'Jokey one';
+
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer a.netlify {
